@@ -14,3 +14,4 @@ Submission Items:
 
 - Document brief of the job, 2 pages (PDF)
 
+Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/tree/main/ASSIGNMENT%203
