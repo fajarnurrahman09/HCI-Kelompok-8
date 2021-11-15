@@ -15,3 +15,15 @@ Submission Items:
 - Document brief of the job, 2 pages (PDF)
 
 Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/tree/main/ASSIGNMENT%203
+
+## ASSIGNMENT 4
+Submission Items: 
+- List of features document and Site Identity Document 
+link :
+- Front Page Mockup
+link : 
+- Recording of Client Decision of Front Page choice and Recording of Client Agreement regarding all mockups
+link : 
+- URL of live hosting : 
+
+
