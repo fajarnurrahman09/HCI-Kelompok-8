@@ -24,6 +24,6 @@ Submission Items:
 > Link : 
 - Recording of Client Decision of Front Page choice and Recording of Client Agreement regarding all mockups
 > Link : 
-- URL of live hosting : 
+- URL of live hosting : https://fajarnurrahman09.github.io/desabinaan.github.io/
 
 
