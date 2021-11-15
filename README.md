@@ -19,11 +19,11 @@ Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/tree/main/ASSIGNMENT%2
 ## ASSIGNMENT 4
 Submission Items: 
 - List of features document and Site Identity Document 
-link :
+Link :
 - Front Page Mockup
-link : 
+Link : 
 - Recording of Client Decision of Front Page choice and Recording of Client Agreement regarding all mockups
-link : 
+Link : 
 - URL of live hosting : 
 
 
