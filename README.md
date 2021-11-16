@@ -23,7 +23,7 @@ Submission Items:
 - Front Page Mockup
 > Link : 
 - Recording of Client Decision of Front Page choice and Recording of Client Agreement regarding all mockups
-> Link : 
+> Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/tree/sprint1/doc/Video
 - URL of live hosting : https://fajarnurrahman09.github.io/desabinaan.github.io/
 
 
