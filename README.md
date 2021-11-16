@@ -19,13 +19,14 @@ Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/tree/main/ASSIGNMENT%2
 ## ASSIGNMENT 4
 Submission Items: 
 - List of features document 
->  
+> https://github.com/fajarnurrahman09/HCI-Kelompok-8/blob/sprint1/doc/spec/README.md
 - Site Identity Document 
 > Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/blob/sprint1/doc/spec/Site%20Identity%20HCI_Group%208.pdf
 - Front Page Mockup
 > Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/blob/sprint1/doc/sketch/Homepage.png
 - Recording of Client Decision of Front Page choice and Recording of Client Agreement regarding all mockups
 > Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/tree/sprint1/doc/Video
-- URL of live hosting : https://fajarnurrahman09.github.io/HCI-Kelompok-8/
+- URL of live hosting 
+> Link : https://fajarnurrahman09.github.io/HCI-Kelompok-8/
 
 
