@@ -1624,7 +1624,7 @@ Version:1.0
 	margin-bottom: 5px;
 	text-transform: uppercase;
 }
-.midium-banner .single-banner a {
+.midium-banner .single-banner a{
 	display: inline-block;
 	font-weight: 600;
 	text-align: center;
@@ -3679,7 +3679,8 @@ Version:1.0
 	color: #777;
 	display: block;
 	text-transform: uppercase;
-	margin-bottom: 5px;
+	margin-top: -20px;
+	margin-bottom: 20px;
 	font-weight: 600;
 }
 .cown-down .content .title {
