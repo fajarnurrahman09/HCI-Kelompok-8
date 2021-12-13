@@ -52,45 +52,33 @@
 </head>
 
 <body>
-  <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom sticky-top" style="margin-bottom: 0px!important; justify-content: center!important;">
-      <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none" style="align-items: center; margin-bottom: 0px!important; padding: 8px 16px; font-size: 18px; font-weight: 500;">
-        <img src="images/Logo DB.png" width="50" height="50" alt="">
-        <span class="fs-4">Desa Binaan FMIPA</span>
-      </a>
+  <?php 
+  $headpage = "Home";
+  include("header.php");
+  ?>
 
-      <ul class="nav nav-pills" style="align-items: center;">
-        <li class="nav-item"><a href="index.php" class="nav-link active" aria-current="page" style="margin-right: 16px; margin-left: 16px; background-color: #AA7DCE;">Beranda</a></li>
-        <li class="nav-item"><a href="struktur.php" class="nav-link">Struktur</a></li>
-        <li class="nav-item"><a href="proker.php" class="nav-link">Program Kerja</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Jadwal</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Tentang Kami</a></li>
-      </ul>
-    </header>
-  </div>
-
+  <!--Carousel---------------------------------------------->
   <div class="container">
-    <header class="masthead text-white text-center" style="background-color: #AA7DCE;">
-      <div class="container d-flex align-items-center flex-column">
-        <!-- Masthead Avatar Image-->
-        <img class="masthead-avatar mb-5" sty src="assets/img/avataaars.svg" alt="..." />
-        <!-- Masthead Heading-->
-        <h1 class="masthead-heading text-uppercase mb-0">Desa Binaan</h1>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2500">
+                    <a href="#">
+                        <img src="images/Banner 1.png" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <a href="#">
+                        <img src="images/Banner 2.png" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <a href="#">
+                        <img src="images/Banner 3.png" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+            </div>
         </div>
-        <p class="masthead-subheading font-weight-light mb-0" style="color: white;">Community Development dari Fakultas
-          Matematika dan Ilmu
-          Pengetahuan Alam
-          Universitas Negeri Jakarta yang berbasis di daerah Kayu Jati, Rawamangun, Jakarta Timur.</p>
-      </div>
-      <!-- Masthead Subheading-->
-  </div>
-  </header>
-  </div>
+    </div>
   <div class="container">
     <section class="midium-banner" style="padding: 100px 0px;">
       <div class="container">
@@ -391,91 +379,9 @@
   </section>
   <!-- End Divisi Section-->
 
-  <!-- Start Footer Area -->
-
-  <footer class="footer">
-    <div class="container">
-      <!-- Footer Top -->
-      <div class="footer-top section">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-5 col-md-6 col-12">
-              <!-- Single Widget -->
-              <div class="single-footer about">
-                <div class="logo">
-                  <a href="index.html"><img src="images/Logo DB Trans2.png" alt="#" width="220px"></a>
-                </div>
-                <p class="text">Community Development Desa Binaan Fakultas Matematika dan Ilmu Pengetahuan
-                  Alam Universitas Negeri Jakarta</p>
-              </div>
-              <!-- End Single Widget -->
-            </div>
-            <div class="col-lg-2 col-md-6 col-12">
-              <!-- Single Widget -->
-              <div class="single-footer links">
-                <h4>Tentang Kami</h4>
-                <ul>
-                  <li><a href="#">Beranda</a></li>
-                  <li><a href="#">Tentang Kami</a></li>
-                  <li><a href="#">Struktur Kepengurusan</a></li>
-                  <li><a href="#">Program Kerja</a></li>
-                  <li><a href="#">Jadwal</a></li>
-                  <li><a href="#">Hubungi Kami</a></li>
-                </ul>
-              </div>
-              <!-- End Single Widget -->
-            </div>
-            <div class="col-lg-2 col-md-6 col-12">
-              <!-- Single Widget -->
-              <div class="single-footer links">
-                <h4>Ketentuan</h4>
-                <ul>
-                  <li><a href="#">Syarat & Ketentuan</a></li>
-                  <li><a href="#">Privacy</a></li>
-                </ul>
-              </div>
-              <!-- End Single Widget -->
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-              <!-- Single Widget -->
-              <div class="single-footer social">
-                <h4>Get to Know</h4>
-                <!-- Single Widget -->
-                <div class="contact">
-                  <ul>
-                    <li>Cek juga media sosial kami</li>
-                  </ul>
-                </div>
-                <!-- End Single Widget -->
-                <ul>
-                  <li><a href="https://www.facebook.com/comdevfmipa"><i class="ti-facebook"></i></a></li>
-                  <li><a href="https://twitter.com/comdevfmipa"><i class="ti-twitter"></i></a></li>
-                  <li><a href="https://www.youtube.com/channel/UCBkqd8j7HBN7fbhz6raSAKQ"><i class="ti-youtube"></i></a></li>
-                  <li><a href="https://www.instagram.com/desabinaan_fmipa/"><i class="ti-instagram"></i></a></li>
-                </ul>
-              </div>
-              <!-- End Single Widget -->
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Footer Top -->
-      <div class="copyright">
-        <div class="container">
-          <div class="inner">
-            <div class="row">
-              <div class="col-lg-6 col-12">
-                <div class="left">
-                  <p>Copyright © 2021 <a href="#" target="_blank">Desa Binaan FMIPA UNJ</a> - All Rights
-                    Reserved.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php 
+  include("footer.php");
+  ?>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
