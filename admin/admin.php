@@ -20,11 +20,15 @@
   <link rel="icon" type="image/png" href="../images/Logo DB.png">
   <!-- Web Font -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/headers/">
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sidebars/">
+
+
 
   <!-- custom CSS -->
   <link rel="stylesheet" href="../css/sidebars.css">
-
 </head>
 
 <body>
@@ -45,16 +49,18 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="admin" href="asmin.php">Home</a>
+            <a class="nav-link active" aria-current="admin" href="admin.php">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Input Data
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Divisi SARPRAS</a></li>
-              <li><a class="dropdown-item" href="#">Divisi KURIKULUM</a></li>
-
+              <li><a class="dropdown-item" href="./pages/sarpras.php">Divisi SARPRAS</a></li>
+              <li><a class="dropdown-item" href="./pages/kurikulum.php">Divisi KURIKULUM</a></li>
+              <li><a class="dropdown-item" href="./pages/infokom.php">Divisi INFOKOM</a></li>
+              <li><a class="dropdown-item" href="">KADESWAKADES</a></li>
+              <li><a class="dropdown-item" href="./kurikulum.php">Divisi PSDM</a></li>
             </ul>
           </li>
           <li class="nav-item">
