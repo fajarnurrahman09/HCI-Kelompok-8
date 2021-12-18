@@ -25,8 +25,6 @@
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sidebars/">
 
-
-
   <!-- custom CSS -->
   <link rel="stylesheet" href="../css/sidebars.css">
 </head>
@@ -64,7 +62,10 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Events</a>
+            <a class="nav-link" href="event.php">Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mail.php">E-Mail</a>
           </li>
         </ul>
         <span class="navbar-text">

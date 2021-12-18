@@ -57,7 +57,10 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
+                        <a class="nav-link" href="../event.php">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../mail.php">E-Mail</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
@@ -74,7 +77,7 @@
             <div class="container">
                 <h1>Tabel proker divisi INFOKOM</h1>
                 <div class="container">
-                    <table class="table">
+                    <table class="table table-bordered">
                         <thead>
                             <tr>
                                 <th scope="col">No</th>
@@ -90,7 +93,7 @@
                             $sql = $koneksi->query("select * from tabel_dinfokom");
                             while ($data = $sql->fetch_assoc()) {
                             ?>
-                                <tr>
+                                <tr class="table-active">
                                     <th scope="row"><?php echo $no++; ?></th>
                                     <td><img src="gambar/<?php echo $data['foto'] ?>" style="width: 120px;" alt=""></td>
                                     <td><?php echo $data['nama'] ?></td>
@@ -194,8 +197,9 @@
                             ?>
                         </tbody>
                     </table>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#infokommodal">Create</button>
                 </div>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#infokommodal">Create</button>
+
                 <!-- Modal Create -->
                 <div class="modal fade" id="infokommodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="infokommodalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -279,19 +283,22 @@
             }
 
             ?>
+        </section>
+    </div>
 
-            <!-- Optional JavaScript; choose one of the two! -->
 
-            <!-- Option 1: Bootstrap Bundle with Popper -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-            <!-- Option 2: Separate Popper and Bootstrap JS -->
-            <!--
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
 
-            <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
 
 
 </body>
