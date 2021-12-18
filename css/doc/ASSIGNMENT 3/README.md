@@ -1,0 +1,11 @@
+# Text of video recording
+> Kami memulai meet dengan client pada hari sabtu, 23 Oktober 2021 Pukul 20.00 WIB. Pertemuan dengan client kita awali dengan kata sambutan dan perkenalan diri lalu dilanjut dengan menyampaikan maksud dan tujuan kami. Pada saat itu kami dipertemukan dengan Fadhila Rafa Ali sebagai Wakil Kepala Divisi PSDM Desa Binaan.
+### Apa itu Desa Binaan?
+> Seteleh perkenalan dan sambutan selanjutnya kami langsung mangajukan pertanyaan terkait dengan Desa Binaan, adapaun pertanyaan pertama yang kami ajukan yaitu apa itu desa binaan dan apakah visi misi dari desa binaan tersebut. Dari pertanyaan tersebut kami mendapatkan jawaban yaitu, Desa Binaan adalah sebuah organisasi yang bersifat semi otonom yang memiliki kebebasan dalam menjalankan organisasi baik dalam lingkungan internal kampus maupun eksternal kampus. Sebagai organisasi yang bergerak di bidang sosial Desa Binaan memiliki suatu program pencerdasan dan pembentukan karakter di antaranya, yaitu memberikan pengajaran kepada adik-adik serta pemberdayaan masyarakat terutama orang tua yang berada di wilayah binaan.
+### website seperti apa?
+> Setelah mendapakan jawaban tersebut, kami langsung menanyakan pertanyaan terkait website seperti apa yang akan kami rancang? Dari pertanyaan ini kami mendapati bahwa client ingin sekali Desa binaan ini dikenal oleh banyak orang. Bukan hanya dikelan saja tapi clien ingin sekali banyak orang tahu tentang apa saja yang dilakukan dan apa saja program – program yang di selenggarak oleh Desa Binaan. client juga ingin ada interaksi dari pihak internal dari Desa Binaan dan pihak luar. Disini client juga meberi tahu terkait gambaran tentang UI seperti apa yang mereka inginkan. Sedikit gambaran, disini karena Desa Binaan berkaitan dengan anak – anak client ingin menginginkan tampilan yang fun, friendly, dan creative.
+### Penutup
+> Terakhir untuk menutup meeting kali ini, client mengucapkan terimakasih atas kesediaan kami yang bersedia berkerja sama dengan Desa Binaan. meeting dengan client kali ini kami tutup dengan penyampaian perjanjian kerjasam dengan pihak Desa Binaan dan kami sebagai Developer. Lalu dilanjut dengan doa dan foto Bersama sebagai dokumentasi. 
+### Video 
+> https://youtu.be/ZrBWVqWRy-g
+
