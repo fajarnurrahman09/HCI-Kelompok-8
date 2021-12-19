@@ -32,7 +32,7 @@ Submission Items:
 > Link : 
 - Recording of Client Decision of Front Page choice and Recording of Client Agreement regarding all mockups
 > Link : 
-- URL of live hosting : https://fajarnurrahman09.github.io/HCI-Kelompok-8/
+- URL of live hosting : http://desabinaan.epizy.com/
 
 
 
