@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- google font -->
+<!-- google font -->
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-    <!-- Bootstrap CSS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/style.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <!-- Favicon-->
-    <link rel="icon" type="image/png" href="../images/Logo DB.png">
-    <!-- Web Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+<!-- Bootstrap CSS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../css/style.css">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<!-- Favicon-->
+<link rel="icon" type="image/png" href="../images/Logo DB.png">
+<!-- Web Font -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sidebars/">
+<link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sidebars/">
 
-    <!-- custom CSS -->
-    <link rel="stylesheet" href="../css/sidebars.css">
+<!-- custom CSS -->
+<link rel="stylesheet" href="../css/sidebars.css">
 </head>
 
 <body>
@@ -49,6 +49,9 @@
                             <li><a class="dropdown-item" href="./pages/infokom.php">Divisi INFOKOM</a></li>
                             <li><a class="dropdown-item" href="">KADESWAKADES</a></li>
                             <li><a class="dropdown-item" href="./kurikulum.php">Divisi PSDM</a></li>
+                            <li><a class="dropdown-item" href="./pages/sekre.php">Sekre</a></li>
+                            <li><a class="dropdown-item" href="./pages/bendahara.php">Bendahara</a></li>
+                            <li><a class="dropdown-item" href="./pages/mp.php">manajemen program</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

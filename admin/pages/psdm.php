@@ -54,6 +54,9 @@
                             <li><a class="dropdown-item" href="./infokom.php">Divisi INFOKOM</a></li>
                             <li><a class="dropdown-item" href="./kadeswakades.php">KADESWAKADES</a></li>
                             <li><a class="dropdown-item" href="./psdm.php">Divisi PSDM</a></li>
+                            <li><a class="dropdown-item" href="./sekre.php">Sekre</a></li>
+                            <li><a class="dropdown-item" href="./bendahara.php">Bendahara</a></li>
+                            <li><a class="dropdown-item" href="./mp.php">manajemen program</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -75,7 +78,7 @@
         <section class="input-data">
             <!-- Tabel SARPRAS -->
             <div class="container">
-                <h1>Tabel proker divisi SARPRAS</h1>
+                <h1>Tabel Proker divisi PSDM</h1>
                 <div class="container">
                     <table class="table table-bordered">
                         <thead>
@@ -104,7 +107,7 @@
                                     </td>
                                 </tr>
                                 <!-- Modal Edit -->
-                                <div class="modal fade" id="psdmmodaledit<?php echo $data['id'] ?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="infokommodaleditLabel" aria-hidden="true">
+                                <div class="modal fade" id="psdmmodaledit<?php echo $data['id'] ?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="psdmmodaleditLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">

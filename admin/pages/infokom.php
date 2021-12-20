@@ -54,6 +54,9 @@
                             <li><a class="dropdown-item" href="./infokom.php">Divisi INFOKOM</a></li>
                             <li><a class="dropdown-item" href="./kadeswakades.php">KADESWAKADES</a></li>
                             <li><a class="dropdown-item" href="./psdm.php">Divisi PSDM</a></li>
+                            <li><a class="dropdown-item" href="./sekre.php">Sekre</a></li>
+                            <li><a class="dropdown-item" href="./bendahara.php">Bendahara</a></li>
+                            <li><a class="dropdown-item" href="./mp.php">manajemen program</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -75,7 +78,7 @@
         <section class="input-data">
             <!-- Tabel SARPRAS -->
             <div class="container">
-                <h1>Tabel proker divisi INFOKOM</h1>
+                <h1>Tabel Proker divisi INFOKOM</h1>
                 <div class="container">
                     <table class="table table-bordered">
                         <thead>

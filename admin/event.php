@@ -51,6 +51,9 @@
                             <li><a class="dropdown-item" href="./pages/infokom.php">Divisi INFOKOM</a></li>
                             <li><a class="dropdown-item" href="">KADESWAKADES</a></li>
                             <li><a class="dropdown-item" href="./kurikulum.php">Divisi PSDM</a></li>
+                            <li><a class="dropdown-item" href="./pages/sekre.php">Sekre</a></li>
+                            <li><a class="dropdown-item" href="./pages/bendahara.php">Bendahara</a></li>
+                            <li><a class="dropdown-item" href="./pages/mp.php">manajemen program</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

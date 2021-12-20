@@ -68,134 +68,6 @@
         </div>
     </div>
     <!-- example content -->
-    <div class="container-fluid" id="SARPRAS">
-        <div class="product-area most-popular section">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title">
-                            <h2>SARPRAS</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="text-align: center;">
-                    <div class="col-12">
-                        <div class="owl-carousel popular-slider">
-                            <!-- Start Series -->
-                            <?php
-                            $sql = $koneksi->query("select * from tabel_dsarpras");
-                            while ($data = $sql->fetch_assoc()) {
-                            ?>
-                                <div class="single-product">
-                                    <div class="product-img">
-                                        <a href="https://www.instagram.com/p/CWPV2tRoXPA/">
-                                            <img class="default-img" src="admin/pages/gambar/<?php echo $data['foto'] ?>" alt="gmabar">
-
-                                        </a>
-                                        <div class="button-head">
-                                            <div class="product-action-2">
-                                                <a title="Kunjungi Laman" href=""><?php echo $data['nama'] ?></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php } ?>
-                            <!-- End Series -->
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- example content -->
-    <div class="container-fluid" id="KURIKULUM">
-        <div class="product-area most-popular section">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title">
-                            <h2>KURIKULUM</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="text-align: center;">
-                    <div class="col-12">
-                        <div class="owl-carousel popular-slider">
-                            <!-- Start Series -->
-                            <?php
-                            $sql = $koneksi->query("select * from tabel_dkurikulum");
-                            while ($data = $sql->fetch_assoc()) {
-                            ?>
-                                <div class="single-product">
-                                    <div class="product-img">
-                                        <a href="">
-                                            <img class="default-img" src="admin/pages/gambar/<?php echo $data['foto'] ?>" alt="gmabar">
-
-                                        </a>
-                                        <div class="button-head">
-                                            <div class="product-action-2">
-                                                <a title="Kunjungi Laman" href=""><?php echo $data['nama'] ?></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php } ?>
-                            <!-- End Series -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- example content -->
-    <div class="container-fluid" id="INFOKOM">
-        <div class="product-area most-popular section">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title">
-                            <h2>INFOKOM</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row" style="text-align: center;">
-                    <div class="col-12">
-                        <div class="owl-carousel popular-slider">
-                            <!-- Start Series -->
-                            <?php
-                            $sql = $koneksi->query("select * from tabel_dinfokom");
-                            while ($data = $sql->fetch_assoc()) {
-                            ?>
-                                <div class="single-product">
-                                    <div class="product-img">
-                                        <a href="">
-                                            <img class="default-img" src="admin/pages/gambar/<?php echo $data['foto'] ?>" alt="gmabar">
-
-                                        </a>
-                                        <div class="button-head">
-                                            <div class="product-action-2">
-                                                <a title="Kunjungi Laman" href=""><?php echo $data['nama'] ?></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php } ?>
-                            <!-- End Series -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- example content -->
     <div class="container-fluid" id="KADESWAKADES">
         <div class="product-area most-popular section">
             <div class="container">
@@ -203,7 +75,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title">
-                            <h2>KADESWAKADES</h2>
+                            <h2>KEPALA DESA & WAKIL KEPALA DESA</h2>
                         </div>
                     </div>
                 </div>
@@ -238,6 +110,132 @@
         </div>
     </div>
     <!-- example content -->
+    <div class="container-fluid" id="SEKRE">
+        <div class="product-area most-popular section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2>SEKERTARIS</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="text-align: center;">
+                    <div class="col-12">
+                        <div class="owl-carousel popular-slider">
+                            <!-- Start Series -->
+                            <?php
+                            $sql = $koneksi->query("select * from tabel_dsekre");
+                            while ($data = $sql->fetch_assoc()) {
+                            ?>
+                                <div class="single-product">
+                                    <div class="product-img">
+                                        <a href="">
+                                            <img class="default-img" src="admin/pages/gambar/<?php echo $data['foto'] ?>" alt="gmabar">
+
+                                        </a>
+                                        <div class="button-head">
+                                            <div class="product-action-2">
+                                                <a title="Kunjungi Laman" href=""><?php echo $data['nama'] ?></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                            <!-- End Series -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- example content -->
+    <div class="container-fluid" id="BENDAHARA">
+        <div class="product-area most-popular section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2>BENDAHARA</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="text-align: center;">
+                    <div class="col-12">
+                        <div class="owl-carousel popular-slider">
+                            <!-- Start Series -->
+                            <?php
+                            $sql = $koneksi->query("select * from tabel_dbendahara");
+                            while ($data = $sql->fetch_assoc()) {
+                            ?>
+                                <div class="single-product">
+                                    <div class="product-img">
+                                        <a href="">
+                                            <img class="default-img" src="admin/pages/gambar/<?php echo $data['foto'] ?>" alt="gmabar">
+
+                                        </a>
+                                        <div class="button-head">
+                                            <div class="product-action-2">
+                                                <a title="Kunjungi Laman" href=""><?php echo $data['nama'] ?></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                            <!-- End Series -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- example content -->
+    <div class="container-fluid" id="INFOKOM">
+        <div class="product-area most-popular section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2>DIVIS INFOKOM</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="text-align: center;">
+                    <div class="col-12">
+                        <div class="owl-carousel popular-slider">
+                            <!-- Start Series -->
+                            <?php
+                            $sql = $koneksi->query("select * from tabel_dinfokom");
+                            while ($data = $sql->fetch_assoc()) {
+                            ?>
+                                <div class="single-product">
+                                    <div class="product-img">
+                                        <a href="">
+                                            <img class="default-img" src="admin/pages/gambar/<?php echo $data['foto'] ?>" alt="gmabar">
+
+                                        </a>
+                                        <div class="button-head">
+                                            <div class="product-action-2">
+                                                <a title="Kunjungi Laman" href=""><?php echo $data['nama'] ?></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                            <!-- End Series -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- example content -->
     <div class="container-fluid" id="PSDM">
         <div class="product-area most-popular section">
             <div class="container">
@@ -245,7 +243,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="section-title">
-                            <h2>PSDM</h2>
+                            <h2>DIVISI PSDM</h2>
                         </div>
                     </div>
                 </div>
@@ -256,6 +254,133 @@
                             <!-- Start Series -->
                             <?php
                             $sql = $koneksi->query("select * from tabel_dpsdm");
+                            while ($data = $sql->fetch_assoc()) {
+                            ?>
+                                <div class="single-product">
+                                    <div class="product-img">
+                                        <a href="">
+                                            <img class="default-img" src="admin/pages/gambar/<?php echo $data['foto'] ?>" alt="gmabar">
+
+                                        </a>
+                                        <div class="button-head">
+                                            <div class="product-action-2">
+                                                <a title="Kunjungi Laman" href=""><?php echo $data['nama'] ?></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                            <!-- End Series -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- example content -->
+    <div class="container-fluid" id="PSDM">
+        <div class="product-area most-popular section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2>DIVISI MANAJEMEN PROGRAM</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="text-align: center;">
+                    <div class="col-12">
+                        <div class="owl-carousel popular-slider">
+                            <!-- Start Series -->
+                            <?php
+                            $sql = $koneksi->query("select * from tabel_dmp");
+                            while ($data = $sql->fetch_assoc()) {
+                            ?>
+                                <div class="single-product">
+                                    <div class="product-img">
+                                        <a href="">
+                                            <img class="default-img" src="admin/pages/gambar/<?php echo $data['foto'] ?>" alt="gmabar">
+
+                                        </a>
+                                        <div class="button-head">
+                                            <div class="product-action-2">
+                                                <a title="Kunjungi Laman" href=""><?php echo $data['nama'] ?></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                            <!-- End Series -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- example content -->
+    <div class="container-fluid" id="SARPRAS">
+        <div class="product-area most-popular section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2>SUBDIVISI SARPRAS</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="text-align: center;">
+                    <div class="col-12">
+                        <div class="owl-carousel popular-slider">
+                            <!-- Start Series -->
+                            <?php
+                            $sql = $koneksi->query("select * from tabel_dsarpras");
+                            while ($data = $sql->fetch_assoc()) {
+                            ?>
+                                <div class="single-product">
+                                    <div class="product-img">
+                                        <a href="https://www.instagram.com/p/CWPV2tRoXPA/">
+                                            <img class="default-img" src="admin/pages/gambar/<?php echo $data['foto'] ?>" alt="gmabar">
+
+                                        </a>
+                                        <div class="button-head">
+                                            <div class="product-action-2">
+                                                <a title="Kunjungi Laman" href=""><?php echo $data['nama'] ?></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                            <!-- End Series -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- example content -->
+    <div class="container-fluid" id="KURIKULUM">
+        <div class="product-area most-popular section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2>SUBDIVISI KURIKULUM</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="text-align: center;">
+                    <div class="col-12">
+                        <div class="owl-carousel popular-slider">
+                            <!-- Start Series -->
+                            <?php
+                            $sql = $koneksi->query("select * from tabel_dkurikulum");
                             while ($data = $sql->fetch_assoc()) {
                             ?>
                                 <div class="single-product">

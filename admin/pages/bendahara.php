@@ -1,4 +1,4 @@
-<?php include '../koneksi.php'; ?>
+<?php include '../../admin/koneksi.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -67,7 +67,7 @@
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    <button type="button" class="btn btn-outline-danger btn-sm"><a href="logout.php">logout</a></button>
+                    <button type="button" class="btn btn-outline-danger btn-sm"><a href="../logout.php">logout</a></button>
                 </span>
             </div>
         </div>
@@ -78,7 +78,7 @@
         <section class="input-data">
             <!-- Tabel SARPRAS -->
             <div class="container">
-                <h1>Tabel Proker divisi KURIKULUM</h1>
+                <h1>Tabel Proker Bendahara</h1>
                 <div class="container">
                     <table class="table table-bordered">
                         <thead>
@@ -93,7 +93,7 @@
                         <tbody>
                             <?php
                             $no = 1;
-                            $sql = $koneksi->query("select * from tabel_dkurikulum");
+                            $sql = $koneksi->query("select * from tabel_dbendahara");
                             while ($data = $sql->fetch_assoc()) {
                             ?>
                                 <tr class="table-active">
@@ -102,23 +102,23 @@
                                     <td><?php echo $data['nama'] ?></td>
                                     <td><?php echo $data['deskripsi'] ?></td>
                                     <td>
-                                        <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#kurikulummodaledit<?php echo $data['id'] ?>"><i class="fa fa-edit" aria-hidden="true"></i>edit</button>
-                                        <a href="../buttondelete/DLTkurikulum.php?id=<?php echo $data['id']; ?>" onclick="return confirm('Apakah anda yakin ingin menghapus data ini ?')" class="btn btn-danger btn-sm"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                                        <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#bendaharamodaledit<?php echo $data['id'] ?>"><i class="fa fa-edit" aria-hidden="true"></i>edit</button>
+                                        <a href="../buttondelete/DLTbendahara.php?id=<?php echo $data['id']; ?>" onclick="return confirm('Apakah anda yakin ingin menghapus data ini ?')" class="btn btn-danger btn-sm"><i class="fa fa-trash" aria-hidden="true"></i></a>
                                     </td>
                                 </tr>
                                 <!-- Modal Edit -->
-                                <div class="modal fade" id="kurikulummodaledit<?php echo $data['id'] ?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="kurikulummodaleditLabel" aria-hidden="true">
+                                <div class="modal fade" id="bendaharamodaledit<?php echo $data['id'] ?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="bendaharamodaleditLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="kurikulummodaleditLabel">Edit</h5>
+                                                <h5 class="modal-title" id="bendaharamodaleditLabel">Edit</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
                                                 <form method="POST" enctype="multipart/form-data">
                                                     <?php
                                                     $id = $data['id'];
-                                                    $sql_edit = $koneksi->query("select * from tabel_dkurikulum where id = '$id' ");
+                                                    $sql_edit = $koneksi->query("select * from tabel_dbendahara where id = '$id' ");
                                                     while ($data_edit = $sql_edit->fetch_assoc()) {
                                                     ?>
                                                         <div class="mb-3">
@@ -167,7 +167,7 @@
                                     if (in_array($ekstensi, $ekstensi_diperbolehkan) === true) {
                                         move_uploaded_file($file_tmp, 'gambar/' . $nama_gambar_baru); //memindah file gambar ke folder gambar
                                         // jalankan query INSERT untuk menambah data ke database pastikan sesuai urutan (id tidak perlu karena dibikin otomatis)
-                                        $query = "UPDATE tabel_dkurikulum SET nama = '$nama', deskripsi = '$deskripsi', foto = '$nama_gambar_baru' WHERE id = '$id'";
+                                        $query = "UPDATE tabel_dbendahara SET nama = '$nama', deskripsi = '$deskripsi', foto = '$nama_gambar_baru' WHERE id = '$id'";
                                         $result = mysqli_query($koneksi, $query);
                                         // periska query apakah ada error
                                         if (!$result) {
@@ -176,14 +176,14 @@
                                         } else {
                                             //tampil alert dan akan redirect ke halaman index.php
                                             //silahkan ganti index.php sesuai halaman yang akan dituju
-                                            echo "<script>alert('Data berhasil diedit.');window.location='kurikulum.php';</script>";
+                                            echo "<script>alert('Data berhasil diedit.');window.location='bendahara.php';</script>";
                                         }
                                     } else {
                                         //jika file ekstensi tidak jpg dan png maka alert ini yang tampil
-                                        echo "<script>alert('Ekstensi gambar yang boleh hanya jpg atau png.');window.location='kurikulum.php';</script>";
+                                        echo "<script>alert('Ekstensi gambar yang boleh hanya jpg atau png.');window.location='bendahara.php';</script>";
                                     }
                                 } else {
-                                    $query = "UPDATE tabel_dkurikulum SET nama = '$nama', deskripsi = '$deskripsi' WHERE id = '$id'";
+                                    $query = "UPDATE tabel_dbendahara SET nama = '$nama', deskripsi = '$deskripsi' WHERE id = '$id'";
                                     $result = mysqli_query($koneksi, $query);
                                     // periska query apakah ada error
                                     if (!$result) {
@@ -192,24 +192,23 @@
                                     } else {
                                         //tampil alert dan akan redirect ke halaman index.php
                                         //silahkan ganti index.php sesuai halaman yang akan dituju
-                                        echo "<script>alert('Data berhasil diedit.');window.location='kurikulum.php';</script>";
+                                        echo "<script>alert('Data berhasil diedit.');window.location='bendahara.php';</script>";
                                     }
                                 }
                             }
 
                             ?>
-
                         </tbody>
                     </table>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kurikulummodal">Create</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bendaharamodal">Create</button>
                 </div>
 
                 <!-- Modal Create -->
-                <div class="modal fade" id="kurikulummodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="kurikulummodalLabel" aria-hidden="true">
+                <div class="modal fade" id="bendaharamodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="bendaharamodalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="kurikulummodalLabel">Divisi KURIKULUM</h5>
+                                <h5 class="modal-title" id="bendaharamodalLabel">Divisi SARPRAS</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
@@ -235,6 +234,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Modal Edit -->
 
             </div>
             <!-- Create Sarpras -->
@@ -256,7 +256,7 @@
                     if (in_array($ekstensi, $ekstensi_diperbolehkan) === true) {
                         move_uploaded_file($file_tmp, 'gambar/' . $nama_gambar_baru); //memindah file gambar ke folder gambar
                         // jalankan query INSERT untuk menambah data ke database pastikan sesuai urutan (id tidak perlu karena dibikin otomatis)
-                        $query = "INSERT INTO tabel_dkurikulum (nama, deskripsi, foto) VALUES ('$nama','$deskripsi','$nama_gambar_baru')";
+                        $query = "INSERT INTO tabel_dbendahara (nama, deskripsi, foto) VALUES ('$nama','$deskripsi','$nama_gambar_baru')";
                         $result = mysqli_query($koneksi, $query);
                         // periska query apakah ada error
                         if (!$result) {
@@ -265,14 +265,14 @@
                         } else {
                             //tampil alert dan akan redirect ke halaman index.php
                             //silahkan ganti index.php sesuai halaman yang akan dituju
-                            echo "<script>alert('Data berhasil ditambah.');window.location='kurikulum.php';</script>";
+                            echo "<script>alert('Data berhasil ditambah.');window.location='bendahara.php';</script>";
                         }
                     } else {
                         //jika file ekstensi tidak jpg dan png maka alert ini yang tampil
-                        echo "<script>alert('Ekstensi gambar yang boleh hanya jpg atau png.');window.location='kurikulum.php';</script>";
+                        echo "<script>alert('Ekstensi gambar yang boleh hanya jpg atau png.');window.location='bendahara.php';</script>";
                     }
                 } else {
-                    $query = "INSERT INTO tabel_dkurikulum (nama, deskripsi, foto) VALUES ('$nama', '$deskripsi', null)";
+                    $query = "INSERT INTO tabel_dbendahara (nama, deskripsi, foto) VALUES ('$nama', '$deskripsi', null)";
                     $result = mysqli_query($koneksi, $query);
                     // periska query apakah ada error
                     if (!$result) {
@@ -281,15 +281,15 @@
                     } else {
                         //tampil alert dan akan redirect ke halaman index.php
                         //silahkan ganti index.php sesuai halaman yang akan dituju
-                        echo "<script>alert('Data berhasil ditambah.');window.location='kurikulum.php';</script>";
+                        echo "<script>alert('Data berhasil ditambah.');window.location='bendahara.php';</script>";
                     }
                 }
             }
 
             ?>
+
         </section>
     </div>
-
 
     <!-- Optional JavaScript; choose one of the two! -->
 
