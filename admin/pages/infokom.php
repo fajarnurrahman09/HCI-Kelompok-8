@@ -49,14 +49,14 @@
                             Input Data
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./sarpras.php">Divisi SARPRAS</a></li>
-                            <li><a class="dropdown-item" href="./kurikulum.php">Divisi KURIKULUM</a></li>
-                            <li><a class="dropdown-item" href="./infokom.php">Divisi INFOKOM</a></li>
                             <li><a class="dropdown-item" href="./kadeswakades.php">KADESWAKADES</a></li>
-                            <li><a class="dropdown-item" href="./psdm.php">Divisi PSDM</a></li>
-                            <li><a class="dropdown-item" href="./sekre.php">Sekre</a></li>
+                            <li><a class="dropdown-item" href="./sekre.php">Sekertaris</a></li>
                             <li><a class="dropdown-item" href="./bendahara.php">Bendahara</a></li>
-                            <li><a class="dropdown-item" href="./mp.php">manajemen program</a></li>
+                            <li><a class="dropdown-item" href="./infokom.php">Divisi INFOKOM</a></li>
+                            <li><a class="dropdown-item" href="./psdm.php">Divisi PSDM</a></li>
+                            <li><a class="dropdown-item" href="./mp.php">Manajemen Program</a></li>
+                            <li><a class="dropdown-item" href="./sarpras.php">SubDivisi SARPRAS</a></li>
+                            <li><a class="dropdown-item" href="./kurikulum.php">SubDivisi KURIKULUM</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -67,7 +67,7 @@
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    <button type="button" class="btn btn-outline-danger btn-sm"><a href="logout.php">logout</a></button>
+                    <button type="button" class="btn btn-outline-danger btn-sm"><a href="../logout.php">logout</a></button>
                 </span>
             </div>
         </div>
