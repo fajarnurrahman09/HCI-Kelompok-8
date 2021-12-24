@@ -24,8 +24,8 @@
                   <li><a href="about.php">Tentang Kami</a></li>
                   <li><a href="struktur.php">Struktur Kepengurusan</a></li>
                   <li><a href="proker.php">Program Kerja</a></li>
-                  <li><a href="#">Jadwal</a></li>
-                  <li><a href="about.php">Hubungi Kami</a></li>
+                  <li><a href="jadwal.php">Jadwal</a></li>
+                  <li><a href="about.php#CONTACT">Hubungi Kami</a></li>
                 </ul>
               </div>
               <!-- End Single Widget -->

@@ -28,7 +28,7 @@ $headpage;
 
             <?php }
             if ($headpage == "Struktur") { ?>
-                <li class="nav-item"><a href="struktur.php" class="nav-link active" aria-current="page" style="margin-right: 16px; margin-left: 16px; background-color: #AA7DCE">Sturktur</a></li>
+                <li class="nav-item"><a href="struktur.php" class="nav-link active" aria-current="page" style="margin-right: 16px; margin-left: 16px; background-color: #AA7DCE">Struktur</a></li>
 
             <?php }
             if ($headpage != "Struktur") { ?>

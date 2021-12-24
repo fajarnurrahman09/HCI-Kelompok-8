@@ -278,7 +278,7 @@
         </div>
     </div>
     <!-- example content -->
-    <div class="container-fluid" id="PSDM">
+    <div class="container-fluid" id="MP">
         <div class="product-area most-popular section">
             <div class="container">
 
@@ -342,7 +342,7 @@
                             ?>
                                 <div class="single-product">
                                     <div class="product-img">
-                                        <a href="https://www.instagram.com/p/CWPV2tRoXPA/">
+                                        <a href="#">
                                             <img class="default-img" src="admin/pages/gambar/<?php echo $data['foto'] ?>" alt="gmabar">
 
                                         </a>
@@ -404,6 +404,10 @@
             </div>
         </div>
     </div>
+
+    <!--------Start Footer----------->
+    <?php include("footer.php") ?>
+    <!--------End Footer------------->
 
     <!-- Optional JavaScript; choose one of the two! -->
 

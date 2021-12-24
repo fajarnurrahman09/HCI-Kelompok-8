@@ -309,10 +309,10 @@
         <div class="col-lg-4 col-md-6 col-12">
           <!-- Start Kades dan Wakades  -->
           <div class="shop-single-blog">
-            <a href="#"><img src="images/Kawades.png" alt="#"></a>
+            <a href="struktur.php#KADESWAKADES"><img src="images/Kawades.png" alt="#"></a>
             <div class="content">
-              <a href="#" class="title">Kepala dan Wakil Kepala Desa</a>
-              <a href="#" class="more-btn">Pelajari Lebih Lanjut</a>
+              <a href="struktur.php#KADESWAKADES" class="title">Kepala dan Wakil Kepala Desa</a>
+              <a href="struktur.php#KADESWAKADES" class="more-btn">Pelajari Lebih Lanjut</a>
             </div>
           </div>
           <!-- End Kades dan Wakades  -->
@@ -321,10 +321,10 @@
         <div class="col-lg-4 col-md-6 col-12">
           <!-- Start Sekretaris  -->
           <div class="shop-single-blog">
-            <a href="#"><img src="images/Sekre.png" alt="#"></a>
+            <a href="struktur.php#SEKRE"><img src="images/Sekre.png" alt="#"></a>
             <div class="content">
-              <a href="#" class="title">Sekretaris</a>
-              <a href="#" class="more-btn">Pelajari Lebih Lanjut</a>
+              <a href="struktur.php#SEKRE" class="title">Sekretaris</a>
+              <a href="struktur.php#SEKRE" class="more-btn">Pelajari Lebih Lanjut</a>
             </div>
           </div>
           <!-- End Sekretaris  -->
@@ -333,10 +333,10 @@
         <div class="col-lg-4 col-md-6 col-12">
           <!-- Start Bendahara  -->
           <div class="shop-single-blog">
-            <a href="#"><img src="images/Bendahara.png" alt="#"></a>
+            <a href="struktur.php#BENDAHARA"><img src="images/Bendahara.png" alt="#"></a>
             <div class="content">
-              <a href="#" class="title">Bendahara</a>
-              <a href="#" class="more-btn">Pelajari Lebih Lanjut</a>
+              <a href="struktur.php#BENDAHARA" class="title">Bendahara</a>
+              <a href="struktur.php#BENDAHARA" class="more-btn">Pelajari Lebih Lanjut</a>
             </div>
           </div>
           <!-- End Bendahara  -->
@@ -344,10 +344,10 @@
         <div class="col-lg-4 col-md-6 col-12">
           <!-- Start Divisi Infokom  -->
           <div class="shop-single-blog">
-            <a href="#"><img src="images/INFOKOM.png" alt="#"></a>
+            <a href="struktur.php#INFOKOM"><img src="images/INFOKOM.png" alt="#"></a>
             <div class="content">
-              <a href="#" class="title">Divisi Infokom</a>
-              <a href="#" class="more-btn">Pelajari Lebih Lanjut</a>
+              <a href="struktur.php#INFOKOM" class="title">Divisi Infokom</a>
+              <a href="struktur.php#INFOKOM" class="more-btn">Pelajari Lebih Lanjut</a>
             </div>
           </div>
           <!-- End Divisi Infokom  -->
@@ -355,10 +355,10 @@
         <div class="col-lg-4 col-md-6 col-12">
           <!-- Start Divisi PSDM  -->
           <div class="shop-single-blog">
-            <a href="#"><img src="images/PSDM.png" alt="#"></a>
+            <a href="struktur.php#PSDM"><img src="images/PSDM.png" alt="#"></a>
             <div class="content">
-              <a href="#" class="title">Divisi PSDM</a>
-              <a href="#" class="more-btn">Pelajari Lebih Lanjut</a>
+              <a href="struktur.php#PSDM" class="title">Divisi PSDM</a>
+              <a href="struktur.php#PSDM" class="more-btn">Pelajari Lebih Lanjut</a>
             </div>
           </div>
           <!-- End Divisi PSDM  -->
@@ -366,10 +366,10 @@
         <div class="col-lg-4 col-md-6 col-12">
           <!-- Start Divisi MP  -->
           <div class="shop-single-blog">
-            <a href="#"><img src="images/MP.png" alt="#"></a>
+            <a href="struktur.php#MP"><img src="images/MP.png" alt="#"></a>
             <div class="content">
-              <a href="#" class="title">Divisi MP</a>
-              <a href="#" class="more-btn">Pelajari Lebih Lanjut</a>
+              <a href="struktur.php#MP" class="title">Divisi MP</a>
+              <a href="struktur.php#MP" class="more-btn">Pelajari Lebih Lanjut</a>
             </div>
           </div>
           <!-- End Divisi MP  -->

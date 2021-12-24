@@ -82,17 +82,17 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-6 col-12 padding-right">
+              <div class="image">
+                <img src="images/AboutUs.png" alt="#">
+              </div>
+            </div>
+            <div class="col-lg-6 col-12 padding-left">
               <div class="content">
                 <div class="heading-block">
                   <h3 class="title">Apa itu Desa Binaan?</h3>
                   <p class="text">
                     Desa Binaan sebagai organisasi yang bergerak di bidang sosial memiliki suatu program pencerdasan dan pembentukan karakter di antaranya, yaitu memberikan pengajaran kepada adik-adik serta pemberdayaan masyarakat terutama orang tua yang berada di wilayah binaan.</p>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-12 padding-left">
-              <div class="image">
-                <img src="images/AboutUs.png" alt="#">
               </div>
             </div>
           </div>
@@ -135,6 +135,11 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-6 col-12 padding-right">
+              <div class="image">
+                <img src="images/Misi.png" alt="#">
+              </div>
+            </div>
+            <div class="col-lg-6 col-12 padding-left">
               <div class="content">
                 <div class="heading-block">
                   <h3 class="title">Misi</h3>
@@ -145,11 +150,6 @@
                     4. Mengembangkan karakter anak-anak yang ada di masyarakat Kayu Jati. <br><br>
                   </p>
                 </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-12 padding-left">
-              <div class="image">
-                <img src="images/Misi.png" alt="#">
               </div>
             </div>
           </div>
@@ -163,8 +163,8 @@
     <div class="row">
       <div class="col-12">
         <div class="section-title">
-          <a href="#">
-            <h2>HUBUNGI KAMI</h2>
+          <a href="about.php#CONTACT">
+            <h2 style="padding-top: 50px;" id="CONTACT">HUBUNGI KAMI</h2>
           </a>
         </div>
       </div>

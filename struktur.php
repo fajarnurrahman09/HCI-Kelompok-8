@@ -63,7 +63,7 @@
     <div class="col-12">
       <div class="section-title">
         <a href="#">
-          <h2>STUKTUR DESA BINAAN</h2>
+          <h2>STRUKTUR DESA BINAAN</h2>
         </a>
       </div>
     </div>
@@ -71,7 +71,7 @@
 
   <div class="container">
     <!-- Start Kawades -->
-    <section class="cown-down">
+    <section class="cown-down" id="KADESWAKADES">
       <div class="section-inner ">
         <div class="container-fluid">
           <div class="row">
@@ -87,7 +87,7 @@
                   <p class="text">Kepala Desa dan Wakil Kepala Desa bertanggung jawab dalam memimpin penyelenggaraan
                     agenda serta pengembangan dan pelayanan seluruh komponen desa.</p>
                   <br>
-                  <a href="#"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Kades dan Wakades</button></a>
+                  <a href="proker.php#KADESWAKADES"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Kades dan Wakades</button></a>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@
     <!-- /End Kawades -->
 
     <!-- Start Sekretaris -->
-    <section class="cown-down">
+    <section class="cown-down" id="SEKRE">
       <div class="section-inner ">
         <div class="container-fluid">
           <div class="row">
@@ -114,7 +114,7 @@
                   <p class="text">Sekretaris bertanggung jawab dalam hal administrasi dan surat menyurat yang berkaitan
                     dengan seluruh agenda Desa Binaan.</p>
                   <br>
-                  <a href="#"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Sekretaris</button></a>
+                  <a href="proker.php#SEKRE"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Sekretaris</button></a>
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@
     <!-- /End Sekretaris -->
 
     <!-- Start Bendahara -->
-    <section class="cown-down">
+    <section class="cown-down" id="BENDAHARA">
       <div class="section-inner ">
         <div class="container-fluid">
           <div class="row">
@@ -141,7 +141,7 @@
                   <p class="text">Bendahara bertanggung jawab dalam manajemen keuangan yang berkaitan dengan seluruh
                     agenda Desa Binaan.</p>
                   <br>
-                  <a href="#"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Bendahara</button></a>
+                  <a href="proker.php#BENDAHARA"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Bendahara</button></a>
                 </div>
               </div>
             </div>
@@ -154,7 +154,7 @@
 
 
     <!-- Infokom -->
-    <section class="cown-down">
+    <section class="cown-down" id="INFOKOM">
       <div class="section-inner ">
         <div class="container-fluid">
           <div class="row">
@@ -171,7 +171,7 @@
                   <p class="text">Divisi yang bertugas sebagai koordinator pengolahan dan manajemen informasi baik
                     secara langsung ataupun media sosial dalam setiap agenda Desa Binaan. </p>
                   <br>
-                  <a href="#"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Infokom</button></a>
+                  <a href="proker.php#INFOKOM"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Infokom</button></a>
                 </div>
               </div>
             </div>
@@ -183,7 +183,7 @@
 
 
     <!-- Start PSDM -->
-    <section class="cown-down">
+    <section class="cown-down" id="PSDM">
       <div class="section-inner ">
         <div class="container-fluid">
           <div class="row">
@@ -200,7 +200,7 @@
                   <p class="text">Divisi yang bertanggung jawab melakukan penjagaan, pengembangan serta pengkaderan
                     terhadap pengurus dan pejuang Desa Binaan, sehingga terwujudnya rasa kekeluargaan.</p>
                   <br>
-                  <a href="#"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja PSDM</button></a>
+                  <a href="proker.php#PSDM"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja PSDM</button></a>
                 </div>
               </div>
             </div>
@@ -211,7 +211,7 @@
     <!-- /End PSDM -->
 
     <!-- Start MP -->
-    <section class="cown-down">
+    <section class="cown-down" id="MP">
       <div class="section-inner ">
         <div class="container-fluid">
           <div class="row">
@@ -228,7 +228,7 @@
                   <p class="text">Divisi yang bertugas dalam mengatur agenda dan perlengkapan kegiatan di Desa Binaan.
                     Divisi MP Desa Binaan dibagi menjadi 2 subdivisi yaitu kurikulum, dan sarana prasarana.</p>
                   <br>
-                  <a href="#"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja MP</button></a>
+                  <a href="proker.php#MP"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja MP</button></a>
                 </div>
               </div>
             </div>
@@ -239,7 +239,7 @@
     <!-- /End MP -->
 
     <!-- Start Subdivisi Sarpras -->
-    <section class="cown-down">
+    <section class="cown-down" id="SARPRAS">
       <div class="section-inner ">
         <div class="container-fluid">
           <div class="row">
@@ -256,7 +256,7 @@
                   <p class="text">Subdivisi yang bertugas dalam menyiapkan perlengkapan dan kebutuhan sesuai dengan
                     agenda yang dirancang oleh kurikulum.</p>
                   <br>
-                  <a href="#"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Sarpras</button></a>
+                  <a href="proker.php#SARPRAS"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Sarpras</button></a>
                 </div>
               </div>
             </div>
@@ -267,7 +267,7 @@
     <!-- /End Subdivisi Sarpras -->
 
     <!-- Start Subdivisi Kurikulum -->
-    <section class="cown-down">
+    <section class="cown-down" id="KURIKULUM">
       <div class="section-inner ">
         <div class="container-fluid">
           <div class="row">
@@ -284,7 +284,7 @@
                     pembelajaran. Tugas utama mereka bukan hanya mencerdaskan tunas bangsa melainkan mendidik
                     kepribadian mereka menggunakan pendidikan karakteran.</p>
                   <br>
-                  <a href="#"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Kurikulum</button></a>
+                  <a href="proker.php#KURIKULUM"><button class="btn btn-primary" style="border-radius: 30px; border-style: hidden;"> Program Kerja Kurikulum</button></a>
                 </div>
               </div>
             </div>
