@@ -5,7 +5,7 @@
 3. **Fajar Nurrahman [1313618038]** - [fajarnurrahman09](https://github.com/fajarnurrahman09)
 
 ## OUR UPDATE
-Fajar Nurrahman:
+> Fajar Nurrahman:
 - Working admin page
 
 - Update on proker page
@@ -15,14 +15,14 @@ Fajar Nurrahman:
 - Hosting on epizy 
 
 
-Rafli Akmal Gunawan:
+> Rafli Akmal Gunawan:
 - Update on header
 
 - Update on footer
 
 - Update on tentang kami page
 
-Muhammad Yasyakur:
+> Muhammad Yasyakur:
 - Update on mockup design
 
 - Update on hubungi kami
