@@ -4,33 +4,29 @@
 2. **Rafli Akmal Gunawan [1313620013]** - [RafliAkmal](https://github.com/RafliAkmal)
 3. **Fajar Nurrahman [1313618038]** - [fajarnurrahman09](https://github.com/fajarnurrahman09)
 
-## ASSIGNMENT 3
-Submission Items:
-- Scan of Collaboration Letter (PDF)
+## OUR UPDATE
+Fajar Nurrahman:
+- Working admin page
 
-- Video recording of the meeting with Clients (Link Only)
+- Update on proker page
 
-- Text subtitles of video recording (.md)
+- Update on jadwal page
 
-- Document brief of the job, 2 pages (PDF)
+- Hosting on epizy 
 
-Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/tree/main/ASSIGNMENT%203
 
-## ASSIGNMENT 4
-Submission Items: 
-- List of features document 
-> https://github.com/fajarnurrahman09/HCI-Kelompok-8/blob/sprint1/doc/spec/README.md
-- Site Identity Document 
-> Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/blob/sprint1/doc/spec/Site%20Identity%20HCI_Group%208.pdf
-- Front Page Mockup
-> Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/blob/sprint1/doc/sketch/Homepage.png
-- Recording of Client Decision of Front Page choice and Recording of Client Agreement regarding all mockups
+Rafli Akmal Gunawan:
+- Update on header
 
-## ASSIGNMENT 5
-Submission Items: 
-- doc folder which stores video, specification, & mockups
-> Link : 
-- Recording of Client Decision of Front Page choice and Recording of Client Agreement regarding all mockups
+- Update on footer
+
+- Update on tentang kami page
+
+Muhammad Yasyakur:
+- Update on mockup design
+
+- Update on hubungi kami
+
 > Link : 
 - URL of live hosting : http://desabinaan.epizy.com/
 
