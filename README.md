@@ -26,13 +26,6 @@ Submission Items:
 > Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/blob/sprint1/doc/sketch/Homepage.png
 - Recording of Client Decision of Front Page choice and Recording of Client Agreement regarding all mockups
 
-## ASSIGNMENT 5
-Submission Items: 
-- doc folder which stores video, specification, & mockups
-> Link : 
-- Recording of Client Decision of Front Page choice and Recording of Client Agreement regarding all mockups
-> Link : 
-- URL of live hosting : https://fajarnurrahman09.github.io/HCI-Kelompok-8/
 
 
 
