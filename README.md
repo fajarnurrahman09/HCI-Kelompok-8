@@ -13,8 +13,8 @@ Fadhila Rafa Ali sebagai Wakil Kepala Divisi PSDM Desa Binaan
 3. **Fajar Nurrahman [1313618038]** - [fajarnurrahman09](https://github.com/fajarnurrahman09)
 
 # Final Project
-1. App demonstration video
-Link :
+1. Web demonstration video
+Link : https://youtu.be/ADsmNXPPOjc
 2. PDF user manual
 Link :  
 3. Full Front Page Mockup
