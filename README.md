@@ -16,7 +16,7 @@ Fadhila Rafa Ali sebagai Wakil Kepala Divisi PSDM Desa Binaan
 1. Web demonstration video
 Link : https://youtu.be/ADsmNXPPOjc
 2. PDF user manual
-Link :  
+Link :  https://github.com/fajarnurrahman09/HCI-Kelompok-8/blob/main/doc/spec/(user%20manual)%20WEBSITE%20DESA%20BINAAN.pdf
 3. Full Front Page Mockup
 Link : https://github.com/fajarnurrahman09/HCI-Kelompok-8/tree/sprint2/doc/sketch
 4. live host Website
